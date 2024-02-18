@@ -1,4 +1,6 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { myLib } from '@org/my-lib';
+</script>
 
 <template>
   <main>
