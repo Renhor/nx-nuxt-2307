@@ -1,5 +1,8 @@
 import { nxViteTsPaths } from '@nx/vite/plugins/nx-tsconfig-paths.plugin';
+import { myLib } from '@org/my-lib';
 import { defineNuxtConfig } from 'nuxt/config';
+
+myLib();
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
